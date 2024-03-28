@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Restaurant Website</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="nav-bar">
+      <div class="logo">
+        <img src="Assets/logo.jpg" />
+        <h3>Smells Of South</h3>
+      </div>
+      <div class="menu">
+        <ul class="nav-links">
+          <li><a href="">Home</a></li>
+          <li><a href="">Menu Details</a></li>
+          <li><a href="">Bill</a></li>
+          <li><a href="">About Us</a></li>
+        </ul>
+      </div>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+
+    <section class="hero"></section>
+
+    <!-- order section -->
+
+    <div class="order">
+      <form>
+        <div class="customer-details">
+          <h2>Customer Details</h2>
+
+          <label>Name:</label>
+          <input type="text" data-label="Name" />
+
+          <label>Phone:</label>
+          <input type="tel" data-label="Phone" />
+
+          <label>Place:</label>
+          <input type="text" data-label="Place" />
+
+          <label>Email:</label>
+          <input type="email" data-label="Email" />
+        </div>
+
+        <div class="menu-items">
+          <h2>Ordered Items</h2>
+          <label>Biriyani Rice:</label>
+          <input type="number" />
+
+          <label>Chicken Biriyani:</label>
+          <input type="number" />
+
+          <label>Jira Rice:</label>
+          <input type="number" />
+
+          <label>Cool Drinks:</label>
+          <input type="number" />
+
+          <label>Water Bottles:</label>
+          <input type="number" />
+
+          <label>GST(%):</label>
+          <input type="number"  data-label="GST(%)" />
+        </div>
+
+        <div class="pay-button">
+          <button class="button">Payment</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
